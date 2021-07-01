@@ -1,5 +1,5 @@
 # @baseUrl = http://localhost:8888
-@baseUrl = https://60de3fd55d65a100ecf3b36d--fastifypoc.netlify.app
+@baseUrl = https://competent-shockley-e44c09.netlify.app
 
 ###
 GET {{baseUrl}}/api/ HTTP/1.1
