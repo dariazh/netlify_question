@@ -1,0 +1,26 @@
+{
+  "name": "netlify_question",
+  "version": "1.0.0",
+  "description": "POC NEtlify Fastify",
+  "main": "function.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edgar1506/netlify_question.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edgar1506/netlify_question/issues"
+  },
+  "homepage": "https://github.com/edgar1506/netlify_question#readme",
+  "dependencies": {
+    "aws-lambda-fastify": "^1.7.0",
+    "fastify": "^3.18.1"
+  },
+  "devDependencies": {
+    "netlify-cli": "^4.0.5"
+  }
+}

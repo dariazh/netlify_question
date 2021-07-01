@@ -1,0 +1,8 @@
+[functions]
+  node_bundler = "esbuild" #Tell netlify to use esbuild to build either locally or remotely
+  directory = "src/"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/function"
+  status = 200
