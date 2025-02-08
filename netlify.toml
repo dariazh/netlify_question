@@ -1,8 +1,13 @@
 [functions]
-  node_bundler = "esbuild" #Tell netlify to use esbuild to build either locally or remotely
-  directory = "src/"
+node_bundler = "esbuild"  # Используем esbuild для сборки функций
+directory = "netlify/functions"  # Путь к функциям
 
 [[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/function"
+from = "/"
+to = "/.netlify/functions/api"
+status = 200
+
+[[redirects]]
+  from = "/health"
+  to = "/.netlify/functions/api"
   status = 200
