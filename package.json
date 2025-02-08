@@ -2,6 +2,7 @@
   "name": "netlify_question",
   "version": "1.0.0",
   "description": "POC NEtlify Fastify",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +17,7 @@
   },
   "homepage": "https://github.com/edgar1506/netlify_question#readme",
   "dependencies": {
+    "@supabase/supabase-js": "^2.48.1",
     "aws-lambda-fastify": "^1.7.0",
     "fastify": "^3.18.1"
   },

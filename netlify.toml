@@ -1,5 +1,6 @@
 [functions]
 node_bundler = "esbuild"  # Используем esbuild для сборки функций
+external_node_modules = ["fastify", "aws-lambda-fastify"]
 directory = "netlify/functions"  # Путь к функциям
 
 [[redirects]]
@@ -11,3 +12,9 @@ status = 200
   from = "/health"
   to = "/.netlify/functions/api"
   status = 200
+
+[[redirects]]
+from = "/tags/*"
+to = "/.netlify/functions/api"
+status = 200
+
